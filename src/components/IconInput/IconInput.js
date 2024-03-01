@@ -51,6 +51,13 @@ const Wrapper = styled.label`
   &:hover {
     color: ${COLORS.black};
   }
+  :hover {
+    * {
+      ::placeholder {
+        color: ${COLORS.black};
+      }
+    }
+  }
 `;
 
 const IconWrapper = styled.div`
